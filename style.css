@@ -1,0 +1,42 @@
+BODY 
+{
+       	scrollbar-3d-light-color   : #9BAAC1; /* Borde de toda la barra */
+       	scrollbar-arrow-color      : #ffffff; /* Flechitas */
+       	scrollbar-dark-shadow-color: #ffffff; /* Borde de los botones externos*/
+       	scrollbar-face-color       : #734F11; /* fondo de los botones */
+       	scrollbar-highlight-color  : #F3F3F3; /* El borde de los botones */
+       	scrollbar-shadow-color     : #ffffff; /* Color de los botones internos */
+       	scrollbar-track-color      : #BC9047; /* El fondo de la barra */
+				scrollbar-base-color	   : #388AAD;
+}
+.list { 
+        width: 100%;
+        border: 1px solid #000000; 
+        border-collapse: collapse;      
+        border-spacing: 3px;    
+        empty-cells: show;    
+        cell-spacing: 5px;    
+}
+
+.list2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+	font-weight: bold; 
+	border: 1px #000000 solid; 
+	background-color: #BC9047
+}
+
+.list3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: bold; 
+}
+
+a:link    {text-decoration:none; color:#000000; background-color:transparent}
+a:visited {text-decoration:none; color:#000000; background-color:transparent}
+a:active  {text-decoration:none; color:#000000; background-color:transparent}
+a:hover   {text-decoration:none; color:#000000; background-color:transparent}
