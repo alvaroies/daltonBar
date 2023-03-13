@@ -10,6 +10,7 @@
 		$_SESSION['identificado'] = "N";
 
 		$con = conectarBD();
+		
 		// Este código no permite SQL Injection
 		//$stmt = mysqli_prepare($con, "SELECT count(*) as kk FROM users WHERE u_name=? AND u_pass=? ");
 		//mysqli_stmt_bind_param($stmt, 'ss', $_POST["user"], $_POST["pass"]);
